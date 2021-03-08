@@ -2,7 +2,6 @@ body {
     background-color: #002856;
     color: #fff;
     width: 80%;
-    text-align: center;
     margin: 0 auto;
 }
 
@@ -48,10 +47,17 @@ body h1 {
     justify-content: center;
 }
 
-.footer {
-    height: 50%;
+footer {
+    position: fixed;
+    left: 0px;
+    height: 30px;
+    width: 100%;
 }
 
 a:visited {
+    color: white;
+}
+
+a:link {
     color: white;
 }

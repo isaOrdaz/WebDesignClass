@@ -1,0 +1,76 @@
+body {
+    /* adds background image to webpage */
+    background-image: url(/background.jpg);
+    background-position: center;
+    background-size: cover;
+
+    /* change text color */
+    color: white;
+
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+body h2 {
+    text-shadow: 0.6px 0 0 #000, 0 -0.6px 0 #000, 0 0.6px 0 #000, -0.6px 0 0 #000;
+}
+
+body p {
+    text-align: start;
+    text-shadow: 0.6px 0 0 #000, 0 -0.6px 0 #000, 0 0.6px 0 #000, -0.6px 0 0 #000;
+}
+
+.classes {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-top: 25px;
+}
+
+.card {
+    display: flex;
+    flex-flow: column;
+    flex: 33%;
+    background-color: rgba(139, 27, 115, 0.5);
+    color: white;
+    padding: 1pc;
+    border: 1px solid white;
+    margin-right: 10px;
+    height: 200px;
+    text-align: left;
+}
+
+.card h1 {
+    text-align: center;
+}
+
+.card .row {
+    display: flex;
+    flex-flow: row;
+    margin-bottom: 10px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    height: inherit;
+    justify-content: center;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    display: table;
+    align-items: center;
+    margin: 0 auto;
+}
+
+a:visited {
+    color: white;
+}
+
+a {
+    color: white;
+}
